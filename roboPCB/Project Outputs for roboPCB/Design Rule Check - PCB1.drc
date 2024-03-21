@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : D:\ROBOCONPCB\Robopcb\roboPCB\PCB1.PcbDoc
-Date     : 20-03-2024
-Time     : 9.26.38 AM
+Date     : 21-03-2024
+Time     : 5.03.15 PM
 
 Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
 Rule Violations :0
@@ -15,47 +15,45 @@ Rule Violations :0
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=10mil) (Max=10mil) (Preferred=10mil) (All)
-   Violation between Width Constraint: Track (5075mil,3725mil)(5075mil,3992.5mil) on Bottom Layer Actual Width = 78.74mil, Target Width = 10mil
-Rule Violations :1
+Processing Rule : Width Constraint (Min=10mil) (Max=98.425mil) (Preferred=78.74mil) (All)
+Rule Violations :0
 
 Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
 Rule Violations :0
 
-Processing Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
-   Violation between Hole Size Constraint: (102.362mil > 100mil) Pad buck1-1(2513.228mil,2745.984mil) on Multi-Layer Actual Hole Size = 102.362mil
-   Violation between Hole Size Constraint: (102.362mil > 100mil) Pad buck1-2(2513.228mil,3494.016mil) on Multi-Layer Actual Hole Size = 102.362mil
-   Violation between Hole Size Constraint: (102.362mil > 100mil) Pad buck1-3(4166.772mil,2745.984mil) on Multi-Layer Actual Hole Size = 102.362mil
-   Violation between Hole Size Constraint: (102.362mil > 100mil) Pad buck1-4(4166.772mil,3494.016mil) on Multi-Layer Actual Hole Size = 102.362mil
-   Violation between Hole Size Constraint: (102.362mil > 100mil) Pad buck2-1(1180.984mil,4826.772mil) on Multi-Layer Actual Hole Size = 102.362mil
-   Violation between Hole Size Constraint: (102.362mil > 100mil) Pad buck2-2(1929.016mil,4826.772mil) on Multi-Layer Actual Hole Size = 102.362mil
-   Violation between Hole Size Constraint: (102.362mil > 100mil) Pad buck2-3(1180.984mil,3173.228mil) on Multi-Layer Actual Hole Size = 102.362mil
-   Violation between Hole Size Constraint: (102.362mil > 100mil) Pad buck2-4(1929.016mil,3173.228mil) on Multi-Layer Actual Hole Size = 102.362mil
-Rule Violations :8
+Processing Rule : Hole Size Constraint (Min=10mil) (Max=103mil) (All)
+Rule Violations :0
 
 Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
 Rule Violations :0
 
 Processing Rule : Minimum Solder Mask Sliver (Gap=10mil) (All),(All)
-Rule Violations :0
-
-Processing Rule : Silk To Solder Mask (Clearance=10mil) (IsPad),(All)
-Rule Violations :0
-
-Processing Rule : Silk to Silk (Clearance=10mil) (All),(All)
-   Violation between Silk To Silk Clearance Constraint: (7.051mil < 10mil) Between Text "-" (5119.993mil,2590mil) on Top Overlay And Text "P20" (4923mil,2566mil) on Top Overlay Silk Text to Silk Clearance [7.051mil]
-   Violation between Silk To Silk Clearance Constraint: (Collision < 10mil) Between Text "+" (1948.336mil,2274.999mil) on Top Overlay And Text "P10" (1808mil,2254mil) on Top Overlay Silk Text to Silk Clearance [0mil]
-   Violation between Silk To Silk Clearance Constraint: (8.689mil < 10mil) Between Text "+" (2663.336mil,2319.999mil) on Top Overlay And Text "P11" (2523mil,2299mil) on Top Overlay Silk Text to Silk Clearance [8.689mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (3.575mil < 10mil) Between Pad 5V connector-1(5220mil,2885mil) on Multi-Layer And Pad 5V connector-2(5220mil,2995mil) on Multi-Layer [Top Solder] Mask Sliver [3.575mil] / [Bottom Solder] Mask Sliver [3.575mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (3.575mil < 10mil) Between Pad 5V connector-2(5220mil,2995mil) on Multi-Layer And Pad 5V connector-3(5220mil,3105mil) on Multi-Layer [Top Solder] Mask Sliver [3.575mil] / [Bottom Solder] Mask Sliver [3.575mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (3.575mil < 10mil) Between Pad 5V connector-4(5220mil,3225mil) on Multi-Layer And Pad 5V connector-5(5220mil,3335mil) on Multi-Layer [Top Solder] Mask Sliver [3.575mil] / [Bottom Solder] Mask Sliver [3.575mil]
 Rule Violations :3
 
+Processing Rule : Silk To Solder Mask (Clearance=10mil) (IsPad),(All)
+   Violation between Silk To Solder Mask Clearance Constraint: (6.826mil < 10mil) Between Pad 5V connector-1(5220mil,2885mil) on Multi-Layer And Track (5170mil,2825mil)(5280mil,2825mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [6.826mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (6.826mil < 10mil) Between Pad 5V connector-1(5220mil,2885mil) on Multi-Layer And Track (5170mil,2825mil)(5280mil,2825mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [6.826mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (6.826mil < 10mil) Between Pad 5V connector-5(5220mil,3335mil) on Multi-Layer And Track (5170mil,3395mil)(5280mil,3395mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [6.826mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (6.826mil < 10mil) Between Pad 5V connector-5(5220mil,3335mil) on Multi-Layer And Track (5170mil,3395mil)(5280mil,3395mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [6.826mil]
+Rule Violations :4
+
+Processing Rule : Silk to Silk (Clearance=10mil) (All),(All)
+Rule Violations :0
+
 Processing Rule : Net Antennae (Tolerance=0mil) (All)
-   Violation between Net Antennae: Via (5075mil,3725mil) from Top Layer to Bottom Layer 
-Rule Violations :1
+Rule Violations :0
 
 Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
 Rule Violations :0
 
+Waived Violations Of Rule : Net Antennae (Tolerance=0mil) (All)
+   Waived Violation between Net Antennae: Via (5075mil,3725mil) from Top Layer to Bottom Layer Waived by Shrirang Rekhate at 21-03-2024 5.00.14 PM
+Waived Violations :1
 
-Violations Detected : 13
-Waived Violations : 0
+
+Violations Detected : 7
+Waived Violations : 1
 Time Elapsed        : 00:00:02
