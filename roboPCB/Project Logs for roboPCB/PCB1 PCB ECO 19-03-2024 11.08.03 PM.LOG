@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=buck1 Old Footprint=BUCK New Footprint=buck - duplicate
+Change Component Footprint: Designator=buck2 Old Footprint=BUCK New Footprint=buck - duplicate
+Change Component Comment : Designator=buck1 Old Comment= New Comment=Component_1
+Change Component Comment : Designator=buck2 Old Comment= New Comment=Component_1

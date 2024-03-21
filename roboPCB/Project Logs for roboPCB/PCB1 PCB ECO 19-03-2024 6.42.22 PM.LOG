@@ -1,0 +1,7 @@
+Removed Member From Class: ClassName=Sheet1 Member=K1
+Added Component: Designator=KS(KS)
+Added Pin To Net: NetName=OUT Pin=KS-1
+Added Pin To Net: NetName=GND Pin=KS-2
+Added Member To Class: ClassName=Sheet1 Member=Component buck1
+Added Member To Class: ClassName=Sheet1 Member=Component buck2
+Added Member To Class: ClassName=Sheet1 Member=Component KS

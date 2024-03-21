@@ -1,0 +1,4 @@
+Added Component: Designator=KS(KS)
+Added Pin To Net: NetName=OUT Pin=KS-1
+Added Pin To Net: NetName=GND Pin=KS-2
+Added Member To Class: ClassName=Sheet1 Member=Component KS

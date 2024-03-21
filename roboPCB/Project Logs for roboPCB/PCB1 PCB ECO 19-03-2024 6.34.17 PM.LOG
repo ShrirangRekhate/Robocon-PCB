@@ -1,0 +1,11 @@
+Added Component: Designator=buck1(BUCK)
+Added Component: Designator=buck2(BUCK)
+Added Pin To Net: NetName=OUT Pin=buck1-1
+Added Pin To Net: NetName=24v Pin=buck1-2
+Added Pin To Net: NetName=OUT Pin=buck1-3
+Added Pin To Net: NetName=12V+ Pin=buck1-4
+Added Pin To Net: NetName=OUT Pin=buck2-1
+Added Pin To Net: NetName=24v Pin=buck2-2
+Added Pin To Net: NetName=OUT Pin=buck2-3
+Add Pin To Net: Unknown Pin: Pin K1-23
+Add Pin To Net: Unknown Pin: Pin K1-24
